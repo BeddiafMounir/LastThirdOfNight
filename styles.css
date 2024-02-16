@@ -1,0 +1,176 @@
+:root {
+  font-size: 3vw;
+}
+
+* {
+  border-inline: solid 1px black;
+  border-block: solid 1px black;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.demo-wrap {
+  position: relative;
+}
+
+.demo-wrap:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("images/back1.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.demo-content {
+  position: relative;
+}
+
+/* */
+
+.Title {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title-first {
+  grid-column-start: 1;
+}
+
+.Title-mid {
+  grid-column-start: 2;
+  margin-left: 0;
+  margin-right: 0;
+  color: red;
+  font-size: 2rem;
+}
+
+.Title-last {
+  grid-column-start: 3;
+  padding-inline: 2.5%;
+}
+
+.arab {
+  direction: rtl;
+}
+
+h1 {
+  border: none;
+  color: navy;
+}
+
+/* */
+
+.ask-input {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-size: 0.75rem;
+}
+
+.input-first {
+  grid-column-start: 1;
+}
+
+/* */
+
+.form-group1 {
+  margin: 0;
+  border: none;
+}
+
+.form-group2 {
+  margin-top: 0;
+}
+
+input {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+}
+form {
+  border: none;
+}
+
+p label {
+  border: none;
+}
+
+.btn-primary {
+  font-size: 1.6rem;
+}
+form p {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+form p label:first-of-type {
+  text-align: right;
+  padding-right: 1.5rem;
+  font-size: 1.1rem;
+}
+
+form p label:last-of-type {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* */
+.fadjr_maghrib {
+  margin: 0;
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  padding: 0;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+
+.fadjr_maghrib td {
+  padding: 0.5rem;
+  font-style: normal;
+}
+
+/* */
+
+.quran {
+  font-size: 1.2rem;
+}
+
+/* */
+
+.result p:not(.final_result) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.final_result {
+  color: green;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4rem;
+}
