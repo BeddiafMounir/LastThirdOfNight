@@ -169,7 +169,7 @@ form p label:last-of-type {
 }
 
 .final_result {
-  color: green;
+  color: rgb(7, 177, 7);
   margin-top: 0;
   margin-bottom: 0;
   font-size: 4rem;
